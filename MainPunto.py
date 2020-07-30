@@ -1,25 +1,31 @@
-#Incluir el archivo de la clase
+"""
+Nombre: MainPunto.py
+Objetivo: muestra como trabajar con múltiples archivos en python
+Autor:Luis David Delgado Díaz
+Fecha:30 de julio de 2020
+"""
+# Incluir el archivo de la clase Punto
 
 from Punto import Punto
 
-
-#Creamos objetos dentro del mismo archivo
+# Creamos objetos dentro del mismo archivo
 puntoA = Punto(0,0)
-#invocamos metodos get
+# Invocamos métodos get
 print("El valor de la coordenada X es:",puntoA.getX())
 print("El valor de la coordenada Y es:",puntoA.getY())
-#invocamos metodos get
+# Invocamos métodos set
 puntoA.setX(23)
 puntoA.setY(12)
-#imprimimos los valores de los atributos del objeto puntoA
+# Imprimimos los valores de los atributos del objeto puntoA
 print(puntoA.toString())
-#Creamos objetos dentro del mismo archivo
-puntoB = Punto(-10, -20)
-#invocamos metodos get
+
+# Creamos objetos dentro del mismo archivo
+puntoB = Punto(-10,-20)
+# Invocamos métodos get
 print("El valor de la coordenada X es:",puntoB.getX())
 print("El valor de la coordenada Y es:",puntoB.getY())
-#invocamos metodos get
+# Invocamos métodos set
 puntoB.setX(10)
 puntoB.setY(20)
-#imprimimos los valores de los atributos del objeto puntoA
+# Imprimimos los valores de los atributos del objeto puntoA
 print(puntoB.toString())
