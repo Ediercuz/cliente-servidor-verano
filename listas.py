@@ -32,7 +32,7 @@ def main():
     #metodos de las listas
     
     #Append - Agregas un elemento al final de la lista
-    lista.append("Tu puedes antonio")
+    lista.append("Tu puedes")
     print("---------------------------------------")
     for elemento in lista:
         print("El elemento de la lista es: ", elemento)

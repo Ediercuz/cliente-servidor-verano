@@ -8,7 +8,7 @@ Fecha: 05/08/2020
 def main():
     #Creamos un diccionario con distintos key y datos
     print("===========================")
-    dic = {'clave':20082133, 'nombre':'Antonio Rodríguez García', 'edad':21, 'cursos':['Python', 'Progra Web', 'IA']}
+    dic = {'clave':20082133, 'nombre':'Luis David Delgado Díaz', 'edad':21, 'cursos':['Python', 'Progra Web', 'IA']}
     #Listar items del diccionario
     print("Los items son: ", dic)
     #Imprimir un item de un diccionario proporcionando su key
